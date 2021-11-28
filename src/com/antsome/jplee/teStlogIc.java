@@ -86,7 +86,6 @@ public class teStlogIc {
                 case 5:
                     System.out.println("5번문제 선택하셨습니다.");
                     System.out.println("원하는 단을 입력하세요. * 4단 단위로 출력됩니다.");
-                    // 입력 받을 변수값 설정. 지금은 테스트를 위해 11로 셋팅
                     num = sc.nextInt();
 
                     for(int k=0;(k*4)+2<=num;k++){
